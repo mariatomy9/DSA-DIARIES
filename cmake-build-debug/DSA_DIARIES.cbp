@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DSA_DIARIES"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/neozorba/DSA-DIARIES/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/neozorba/DSA-DIARIES/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/neozorba/DSA-DIARIES/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="powerOf2">
+				<Option output="/home/neozorba/DSA-DIARIES/cmake-build-debug/powerOf2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neozorba/DSA-DIARIES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 powerOf2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="powerOf2/fast">
+				<Option output="/home/neozorba/DSA-DIARIES/cmake-build-debug/powerOf2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neozorba/DSA-DIARIES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 powerOf2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DSA_DIARIES">
+				<Option output="/home/neozorba/DSA-DIARIES/cmake-build-debug/DSA_DIARIES" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neozorba/DSA-DIARIES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSA_DIARIES"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DSA_DIARIES/fast">
+				<Option output="/home/neozorba/DSA-DIARIES/cmake-build-debug/DSA_DIARIES" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neozorba/DSA-DIARIES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSA_DIARIES/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/neozorba/DSA-DIARIES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/neozorba/DSA-DIARIES/Codechef/BUYING2.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/Codechef/Byteandian.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/Codechef/CodeSprint/STCKSCAM.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/Codechef/DEC_COOK_OFF/ATTENDU.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/Codechef/DEC_LONG_2020/EVENPSUM.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/Codechef/DEC_LONG_2020/POSPREFS.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/Codechef/DEC_LONG_2020/VACCINE1.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/Codechef/IARCSJUD/BOOKLIST.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/Codechef/MaximumWeightDifference.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/Codechef/Practice/main.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/Codechef/cleanup.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/Codechef/gasoline.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/Codechef/longlongsum.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/Codechef/primer.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/DSA/Bit Magic/bitmagic.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/DSA/Bit Magic/checkBitSet.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/DSA/Bit Magic/countSetBit.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/DSA/Bit Magic/powerOf2.cpp">
+			<Option target="powerOf2"/>
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/DSA/Mathematics/factorial.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/DSA/Mathematics/gcd.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/DSA/Mathematics/palindrome.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/DSA/Mathematics/trailingZerosFactorial.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/Dumb/help.cpp">
+			<Option target="DSA_DIARIES"/>
+		</Unit>
+		<Unit filename="/home/neozorba/DSA-DIARIES/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
