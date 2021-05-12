@@ -1,38 +1,50 @@
-# include <iostream>
+#include <iostream>
+#include <cmath>
 using namespace std;
 
-
-int main()
+int deleteEle(int arr[], int n, int x)
 {
-//Some variables
-int A[5] = {1,2,3,4,5};
-int x = 3;
-int n = sizeof(A)/sizeof(A[0]);
+	int i = 0;
 
+	for(i = 0; i < n; i++)
+	{
+		if(arr[i] == x)
+			break;
+	}
 
-//loop through array
-for(int i = 0; i < n; i++)
-{ 
-  //stop when we got a match
-  if(A[i]==x)
-  {
+	if(i == n)
+		return n;
 
-      break;
+	for(int j = i; j < n - 1; j++)
+	{
+		arr[j] = arr[j + 1];
+	}
 
-  }
-  //copy the index of match to a new loop variable
-  //copy the next element to current index position
-  for(int j = i; j < n; j++){
-      A[j] = A[j+1];
-  }
+	return n-1;
+} 
 
-}
-for(int i =0; i < n; i++)
-{
-  cout << A[i] << endl;
+    
+int main() {
+	
+       int arr[] = {3, 8, 12, 5, 6}, x = 12, n = 5;
 
-}
+       cout<<"Before Deletion"<<endl;
 
-return 0;
+       for(int i=0; i < n; i++)
+       {
+       	cout<<arr[i]<<" ";
+       }
 
+       cout<<endl;
+
+     
+       n = deleteEle(arr, n, x);
+
+       cout<<"After Deletion"<<endl;
+
+       for(int i=0; i < n; i++)
+       {
+       		cout<<arr[i]<<" ";
+       }
+    
 }
