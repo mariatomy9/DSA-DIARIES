@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>  // This will work only for g++ compiler
 
 //Macros for loops
-#define for0(i, n) for (int i = 0; i < (int)(n); i++)
+#define for0(i, n) for (int i = 0; i < (int)(n); i++
 #define forr0(i, n) for (int i = (int)(n) - 1; i >= 0; --i) 
 
 using namespace std;
@@ -9,29 +9,20 @@ using namespace std;
 int LargestElement(int arr[], int x){
 
 //some variables
-int n = sizeof(arr[])/sizeof(arr[0]);
-int largestElement = 0;
 
-forr0(i,n){
-    if(arr[i]>largestElement){
-        largestElement = arr[i];
-    }
+int i;
+     
+    // Initialize maximum element
+    int max = arr[0];
+ 
+    // Traverse array elements
+    // from second and compare
+    // every element with current max
+    for (i = 1; i < n; i++)
+        if (arr[i] > max)
+            max = arr[i];
+ 
+    return max;
 
-
-}
-return LargestElement;
-}
-
-int indexOfLargestElement(){
-int index = LargestElement()
-
-}
-int main(){
-
-
-
-
-
-return 0;
 }
 
