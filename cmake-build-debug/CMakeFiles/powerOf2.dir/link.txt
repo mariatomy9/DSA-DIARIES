@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/powerOf2.dir/DSA/Bit_Magic/powerOf2.cpp.o  -o powerOf2 

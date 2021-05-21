@@ -1,4 +1,0 @@
-/home/neozorba/DSA-DIARIES/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/neozorba/DSA-DIARIES/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/neozorba/DSA-DIARIES/cmake-build-debug/CMakeFiles/powerOf2.dir
-/home/neozorba/DSA-DIARIES/cmake-build-debug/CMakeFiles/DSA_DIARIES.dir
