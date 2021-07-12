@@ -14,10 +14,19 @@ S.insert(12);
 S.insert(10);
 S.insert(11);
 
-for(int x: S)
+//for(int x: S)
+//{
+//    cout << x << "  ";
+//}
+
+for(auto it = S.begin(); it != S.end(); it++)
 {
-    cout << x << "  ";
+    cout << *it << " ";
 }
+
+cout<< S.size();
+S.clear();
+cout<< S.size();
 
 return 0;
 }
