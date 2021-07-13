@@ -9,11 +9,13 @@ using namespace std;
 int main(){
 
 unordered_map <string, int> m;
+
 m.insert({"amal",12});
 m["gfg"]=10;
-for(auto x: m)
+
+for(auto it = m.begin(); it != m.end(); it++)
 {
-    cout<<"  "<<x.first<<" "<<x.second<<endl;
+    cout<<"  "<<it->first<<" "<<it->second<<endl;
 }
 
 
