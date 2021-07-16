@@ -9,10 +9,8 @@ using namespace std;
 int intersection(int arr1[], int arr2[], int m, int n)
 {
 
-unordered_set<int> us;
-    for(int i = 0; i < m; i++)
-      us.insert(arr1[i]);
-      
+    unordered_set<int> us(arr1, arr1+m);
+    
     int res = 0;  
     for(int i = 0; i < n; i++)
     {
