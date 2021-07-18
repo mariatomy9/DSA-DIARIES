@@ -6,12 +6,16 @@
 
 using namespace std;
 
-void countDistinct(int arr[], int n)
+int countDistinct(int arr[], int n)
 {
 
  unordered_map<int, int> mp;
  
-    // Traverse through array elements and
+
+
+
+
+ // Traverse through array elements and
     // count frequencies
     for (int i = 0; i < n; i++)
         mp[arr[i]]++;
