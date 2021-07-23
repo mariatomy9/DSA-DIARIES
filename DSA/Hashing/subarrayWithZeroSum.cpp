@@ -18,7 +18,7 @@ int ZeroSumSubarray(int arr[], int n)
         {
             return 1;
         }
-        us.insert(pre_sum)
+        us.insert(pre_sum);
     }
     return 0;
 }
