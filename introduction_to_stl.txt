@@ -1,4 +1,0 @@
-There are basically three components in STL:
-1. Container- Used to store the data. example: vector, array, list
-2. Iterator- 
-3. Algorithm-example: searching, sorting
