@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>  // This will work only for g++ compiler
 
 //Macros for loops
-
+#define for0(i, n) for (int i = 0; i < (int)(n); i++)
 
 
 using namespace std;
