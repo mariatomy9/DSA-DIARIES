@@ -27,15 +27,23 @@ void merge( int arr[], int l, int m, int h)
     //Standard merge logic
     int i=0,j=0,k=0;
     while(i<n1 && j<n2){
-        if(left[i]<=right[j])
-            arr[k++]=left[i++];
+        if(arrLeft[i]<=arrRight[j])
+            arr[k]=arrLeft[i];
+            k++;
+            i++;
         else
-            arr[k++]=right[j++];
+            arr[k]=arrRight[j];
+            k++;
+            j++;
     }
     while(i<n1)
-        arr[k++]=left[i++];
+        arr[k]=arrLeft[i];
+        k++;
+        i++;
     while(j<n2)
-        arr[k++]=right[j++];
+        arr[k]=arrRight[j];
+        k++;
+        j++;
 
 }
 int main(){
