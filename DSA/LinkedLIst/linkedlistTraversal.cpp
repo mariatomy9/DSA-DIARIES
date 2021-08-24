@@ -7,7 +7,7 @@
 using namespace std;
 struct Node{
 
-    int data;
+    int mdata;
 
     Node* next;
     Node(int x)
